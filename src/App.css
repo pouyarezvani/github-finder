@@ -19,8 +19,8 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  background-color: #fff;
-  color: #333;
+  background-color: #202029;
+  color: #fff;
 }
 
 a {
@@ -203,8 +203,10 @@ img {
   padding: 0.4rem 1.3rem;
   font-size: 1rem;
   border: none;
+  border-radius: 10px;
+
   cursor: pointer;
-  margin-right: 0.5rem;
+  margin-right: auto;
   transition: opacity 0.2s ease-in;
   outline: none;
 }
@@ -217,7 +219,8 @@ img {
 
 .btn-block {
   display: block;
-  width: 100%;
+  width: 30%;
+  margin: auto;
 }
 
 .btn-sm {
@@ -226,6 +229,9 @@ img {
   margin-right: 0.2rem;
 }
 
+.search {
+  margin-top: 10px;
+}
 .badge {
   display: inline-block;
   font-size: 0.8rem;
@@ -310,6 +316,9 @@ img {
 /* Forms */
 input {
   margin: 1.2rem 0;
+  border-radius: 10px;
+  /* width: 30% !important; */
+  /* margin: auto; */
 }
 
 .form-text {
@@ -356,6 +365,7 @@ table th {
   width: 100%;
   opacity: 0.9;
   margin-bottom: 1rem;
+  background-color: #16161d;
 }
 
 .navbar ul {
@@ -363,7 +373,7 @@ table th {
 }
 
 .navbar a {
-  color: #fff;
+  color: pink;
   padding: 0.45rem;
   margin: 0 0.25rem;
 }
@@ -374,6 +384,10 @@ table th {
 
 .navbar .welcome span {
   margin-right: 0.6rem;
+}
+
+.logo {
+  color: pink;
 }
 
 /* Mobile Styles */
